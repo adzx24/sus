@@ -10,7 +10,7 @@
 </head>
 <body>
     @include('nav')
-    <div class="container mt-4">
+    <div class="container mt-4 mb-2">
         <center><h3>Edit user</h3></center>
         <div class="card p-3">
             <form action="{{ route('postedituser',$user->id) }}" method="POST" class="form-group">
@@ -28,6 +28,6 @@
             </form>
         </div>
     </div>
+    @include('template')
 </body>
-@include('template')
 </html>

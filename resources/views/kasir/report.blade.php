@@ -60,7 +60,7 @@
                             <td>{{ number_format($p->harga,0,',','.') }}</td>
                             <td>{{ number_format($p->harga,0,',','.') }}</td>
                             <td>
-                                <a href="{{ route('cetakpdf',$p->id) }}" class="btn btn-success">Print</a>
+                                <a href="{{ route('cetakpdf',$p->id) }}" class="btn btn-success"><i class="fa-solid fa-print"></i></a>
                             </td>
                         </tr>
                         @php
