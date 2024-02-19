@@ -13,7 +13,7 @@
         width: 35%;
         margin: auto;
         margin-top: 15%;
-        border-radius: 7%;
+
 
     }
     body{
@@ -31,9 +31,9 @@
 
 
 
-        <center><h1>Selamat datang  Adi Carwash</h1></center>
+        <center><h1><strong>Selamat datang  Adi Carwash</strong></h1></center>
         <div class="card p-4 mt-5">
-            <center><h4><i class="fa-solid fa-car"></i> Carwash</h4></center>
+            <center><h4> Carwash</h4></center>
             <form action="{{ route('postlogin') }}" method="POST" class="form-group">
                 @csrf
             {{-- <label for="">Email</label>

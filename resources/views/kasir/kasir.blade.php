@@ -24,7 +24,7 @@
         {{ Session::get('m') }} <i class="fa-regular fa-thumbs-up"></i></p>
     @endif
         <div class="row">
-            <p><h2>Adi carwash</h2></p>
+         
             @foreach ($data  as $o)
 
             <div class="col-4" id="content">

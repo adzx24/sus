@@ -15,12 +15,12 @@
 @auth
     @if (auth()->user()->role == 'kasir')
         <nav class="navbar navbar-primary  p-3  bg-secondary" >
-            <div>
 
-
-                <a href="{{ route('kasir') }}" class="navbar-brand " style="color: white" > <i class="fa-solid fa-house"></i> Home</a>
-                <a href="{{ route('logout') }}" class="navbar-brand " style="color: white" onclick="return confirm('Yakin logout?')">Logout</a>
+            <a href="" class=" navbar-brand " style="color: white"><h4>Adi carwash</h4></a>
+            <div >
+                <a href="{{ route('kasir') }}" class="navbar-brand " style="color: white" >  Home</a>
                 <a href="{{ route('report') }}" class="navbar-brand" style="color: white">Laporan</a>
+                <a href="{{ route('logout') }}" class="navbar-brand " style="color: white" onclick="return confirm('Yakin logout?')">Logout</a>
 
 
             </div>
@@ -29,9 +29,10 @@
 
     @else
         <nav class="navbar navbar-secondary  p-3 bg-secondary" >
-            <div>
 
-                <a href="{{ route('logout') }}" class="navbar-brand" style="color: white" onclick="return confirm('Yakin logout?')">Logout</a>
+            <a href="" class=" navbar-brand " style="color: white"><h4>Adi carwash</h4></a>
+            <div>
+                <a href="{{ route('logout') }}" class="navbar-brand btn btn-block" style="color: white" onclick="return confirm('Yakin logout?')">Logout</a>
             </div>
         </nav>
 

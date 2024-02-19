@@ -15,10 +15,8 @@
             color: #fff;
             padding: 20px;
             text-align: center;
-
             margin-top: 12%;
             left: 0;
-
             width: 100%;
         }
     </style>
