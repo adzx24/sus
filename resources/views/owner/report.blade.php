@@ -41,7 +41,7 @@
                     <label for="">Tanggal akhir</label>
                     <input type="date" name="enddate" class="form-control" placeholder="Masukkan tanggal">
                     <button class="btn btn-warning mt-2" type="submit">Search <i class="fa-solid fa-magnifying-glass"></i> </button>
-                    <a href="{{ route('reportowner') }}" class="btn btn-light">Refresh <i class="fa-solid fa-rotate-left"></i></a>
+                    <a href="{{ route('reportowner') }}" class="btn btn-light mt-2">Refresh <i class="fa-solid fa-rotate-left"></i></a>
                 </form>
             </div>
         </div>
@@ -55,7 +55,7 @@
                     <label for="">Tanggal akhir</label>
                     <input type="date" name="enddate" class="form-control" placeholder="Masukkan tanggal">
                     <button class="btn btn-danger mt-2" type="submit">Download <i class="fa-regular fa-file-pdf"></i></button>
-                    <a href="{{ route('reportowner') }}" class="btn btn-light">Refresh <i class="fa-solid fa-rotate-left"></i></a>
+                    <a href="{{ route('reportowner') }}" class="btn btn-light mt-2">Refresh <i class="fa-solid fa-rotate-left"></i></a>
 
                 </form>
             </div>

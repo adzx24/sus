@@ -11,7 +11,7 @@
             padding: 0;
         }
         .footer {
-            background-color:grey;
+            background-color:rebeccapurple;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -27,6 +27,7 @@
     </div>
     <div class="footer">
         &copy; <?php echo date('Y'); ?> Adi carwash. All rights reserved.
+       <p> Develoved by : Adi maulana yusuf</p>
     </div>
 </body>
 </html>
